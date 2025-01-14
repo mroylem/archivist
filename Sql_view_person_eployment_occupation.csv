@@ -1,0 +1,35 @@
+person_id;person_name;person_gender;person_death_date;person_nationality;year_of_taking_office;year_of_ending_term;occupation_name;occupation_type;occupation_definition;organisation_name;organisation_definition
+1;Jean-Pierre-Antoine Baron;Homme;1864-09-11;Suisse;1807;1808;Copiste;Littéraire;;Archives cantonale vaudoise;service rattaché au canton vaudois en suisse
+1;Jean-Pierre-Antoine Baron;Homme;1864-09-11;Suisse;1808;1811;Registrateur;Littéraire;;Archives cantonale vaudoise;service rattaché au canton vaudois en suisse
+1;Jean-Pierre-Antoine Baron;Homme;1864-09-11;Suisse;1811;1829;Secrétaire;Administratif;;Archives cantonale vaudoise;service rattaché au canton vaudois en suisse
+1;Jean-Pierre-Antoine Baron;Homme;1864-09-11;Suisse;1829;1832;Archiviste de la chancellerie;Services d'archives;;Archives cantonale vaudoise;service rattaché au canton vaudois en suisse
+1;Jean-Pierre-Antoine Baron;Homme;1864-09-11;Suisse;1838;1864;Archiviste cantonal;Services d'archives;;Archives cantonale vaudoise;service rattaché au canton vaudois en suisse
+1;Jean-Pierre-Antoine Baron;Homme;1864-09-11;Suisse;1845;1852;Archiviste pour les médailles et antiquités;Archiviste spécialisé;;Archives cantonale vaudoise;service rattaché au canton vaudois en suisse
+2;Jean Courvoisier;Homme;2010-05-21;Suisse;1948;1987;Archiviste adjoint de l'Etat de Neuchatel;Services d'archives;;Archives de l'Etat de Neuchatel;Service des archives de neuchatel
+2;Jean Courvoisier;Homme;2010-05-21;Suisse;1963;1967;Président;Comission;;Société d'histoire et d'archéologie du canton de Neuchatel;Regroupement intellectuel
+2;Jean Courvoisier;Homme;2010-05-21;Suisse;1963;1983;Membre du conseil;Membre;;Paroisse protestant de Neuchatel;Etablissement religieux
+2;Jean Courvoisier;Homme;2010-05-21;Suisse;1971;1974;Siège aux comités;Expertise;;Socitété d'histoire de l'art Suisse;Regroupement intellectuel
+2;Jean Courvoisier;Homme;2010-05-21;Suisse;1971;1986;Secrétaire de rédaction;Journalisme;;Musée neuchâtelois;Journal publié sur Neuchatel
+2;Jean Courvoisier;Homme;2010-05-21;Suisse;1978;1986;Siège aux comités;Expertise;;Association des archivistes suisses;Association
+3;Aymon de Crousaz;Homme;1909-07-21;Suisse;1863;1864;Aide provisoire aux archives;Aide provisoire;;Archives cantonale vaudoise;service rattaché au canton vaudois en suisse
+3;Aymon de Crousaz;Homme;1909-07-21;Suisse;1864;1909;Archiviste cantonal;Services d'archives;;Archives cantonale vaudoise;service rattaché au canton vaudois en suisse
+4;Henri Courvoisier;Homme;1922;Suisse;;;;;;;
+5;Alice Calame;Femme;1968;Suisse;;;;;;;
+6;Genevière Comtesse;Femme;2016;Suisse;;;;;;;
+7;Christiane Naud;Femme;2017;Française;1961;1962;Conservatrice adjointe;Services d'archives;;Archives du département de la Seine et de la Ville de Paris;Service public des archives française
+7;Christiane Naud;Femme;2017;Française;1965;1983;Directrice adjointe;Services d'archives;;Archives départementales de la Sarthe;Service public des archives française
+7;Christiane Naud;Femme;2017;Française;1983;1995;Directrice adjointe;Services d'archives;;Centre des archives contemporaines de Fontainebleau;Service public des archives française
+8;Gérard Naud;Homme;2010;Français;1959;1963;Directeur;Services d'archives;;Archives départementales de la Meuse;Service public des archives française
+8;Gérard Naud;Homme;2010;Français;1963;1983;Directeur;Services d'archives;;Archives départementales de la Sarthe;Service public des archives française
+8;Gérard Naud;Homme;2010;Français;1967;1983;Enseignant de l'archivistique;Universitaire;;Université du Mans;Université
+8;Gérard Naud;Homme;2010;Français;1976;1982;Rédacteur en chef;Journalisme scientifique;;La Gazette des archives;Revue archivistique
+8;Gérard Naud;Homme;2010;Français;1983;1995;Directeur;Services d'archives;;Centre des archives contemporaines de Fontainebleau;Service public des archives française
+8;Gérard Naud;Homme;2010;Français;1988;1995;Inspecteur général des archives;Services public;;Centre des archives contemporaines de Fontainebleau;Service public des archives française
+9;Guy Berthiaume;Homme;None;Canadienne;1984;1999;Vice-recteur;Universitaire;;Université du Québec à Montréal;Université
+9;Guy Berthiaume;Homme;None;Canadienne;1996;1998;Enseignant;Enseignement;;Université du Québec à Montréal;Université
+9;Guy Berthiaume;Homme;None;Canadienne;2009;2014;Directeur;Services d'archives;;Bibliothèque et Archives nationales du Québec;Biblothèque
+9;Guy Berthiaume;Homme;None;Canadienne;2014;2019;Directeur;Services d'archives;; Bibliothèque et Archives Canada;Biblothèque
+10;Marcel Detienne;Homme;2019;Belge;;;;;;;
+11;Bruno Galland;Homme;Non;Français;1995;2014;Conservateur;Minitère de la Culture;;Centre d'accueil et de recherche des Archives nationales;Service public des archives française
+11;Bruno Galland;Homme;Non;Français;2014;2024;Directeur;Services d'archives;;Archives du département du Rhône et de la métropole de Lyon;Service public des archives française
+11;Bruno Galland;Homme;Non;Français;2014;2024;Enseignant;Enseignement;;Université Paris-Sorbonne (Paris-IV);Université
