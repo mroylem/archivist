@@ -14,13 +14,13 @@
   {
     "kind": 2,
     "language": "sparql",
-    "value": "### List 'n' more frequent occupations\n\nPREFIX wd: <http://www.wikidata.org/entity/>\n\n\nSELECT ?occupation ?occupationLabel ?n\nWHERE {\n\n    {\n    SELECT ?occupation (COUNT(*) as ?n)\n    WHERE {\n        ?item wdt:P106 ?occupation.\n        }\n    GROUP BY ?occupation \n    ORDER BY DESC(?n)\n\n    #OFFSET 20\n    LIMIT 20\n    }\n\n    SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n    \n    }\n    ORDER BY DESC(?n)\n\n",
+    "value": "### List 'n' more frequent occupations\r\n\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\n\r\n\r\nSELECT ?occupation ?occupationLabel ?n\r\nWHERE {\r\n\r\n    {\r\n    SELECT ?occupation (COUNT(*) as ?n)\r\n    WHERE {\r\n        ?item wdt:P106 ?occupation.\r\n        }\r\n    GROUP BY ?occupation \r\n    ORDER BY DESC(?n)\r\n\r\n    #OFFSET 20\r\n    LIMIT 20\r\n    }\r\n\r\n    SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\r\n    \r\n    }\r\n    ORDER BY DESC(?n)\r\n\r\n",
     "metadata": {}
   },
   {
     "kind": 2,
     "language": "sparql",
-    "value": "### List more frequent occupations\n\nPREFIX wd: <http://www.wikidata.org/entity/>\n\nSELECT ?field ?fieldLabel ?n\nWHERE {\n\n    {\n    SELECT ?field (COUNT(*) as ?n)\n    WHERE {\n        ?item wdt:P101 ?field.\n        }\n    GROUP BY ?field \n    ORDER BY DESC(?n)\n\n    #OFFSET 20\n    LIMIT 20\n    }\n\n    SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\n    \n    }\n    ORDER BY DESC(?n)\n\n",
+    "value": "### List more frequent occupations\r\n\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\n\r\nSELECT ?field ?fieldLabel ?n\r\nWHERE {\r\n\r\n    {\r\n    SELECT ?field (COUNT(*) as ?n)\r\n    WHERE {\r\n        ?item wdt:P101 ?field.\r\n        }\r\n    GROUP BY ?field \r\n    ORDER BY DESC(?n)\r\n\r\n    #OFFSET 20\r\n    LIMIT 20\r\n    }\r\n\r\n    SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\" }\r\n    \r\n    }\r\n    ORDER BY DESC(?n)\r\n\r\n",
     "metadata": {}
   },
   {
@@ -38,19 +38,19 @@
   {
     "kind": 2,
     "language": "sparql",
-    "value": "   ## Count and inspect occupations and fields of work\n   SELECT (COUNT(*) as ?eff)\n    WHERE {\n        ?item wdt:P31 wd:Q5;  # Any instance of a human.\n\n            wdt:P106 wd:Q11063  # astronomer 10162\n        \n            # wdt:P101 wd:Q333  # astronomy 2161\n            # wdt:P106 wd:Q169470 # physicist 32123\n            #  wdt:P101 wd:Q413 # physics ~ 4000\n            #  wdt:P106 wd:Q155647  # astrologer 1364\n            #  wdt:P101 wd:Q34362 # astrology 241\n            #  wdt:P106 wd:Q170790  # mathematician 39562\n            #  wdt:P106 wd:Q901 # scientist 36117\n\n    }  \n    #LIMIT 10\n",
+    "value": "   ## Count and inspect occupations and fields of work\r\n   SELECT (COUNT(*) as ?eff)\r\n    WHERE {\r\n        ?item wdt:P31 wd:Q5;  # Any instance of a human.\r\n\r\n            wdt:P106 wd:Q11063  # astronomer 10162\r\n        \r\n            # wdt:P101 wd:Q333  # astronomy 2161\r\n            # wdt:P106 wd:Q169470 # physicist 32123\r\n            #  wdt:P101 wd:Q413 # physics ~ 4000\r\n            #  wdt:P106 wd:Q155647  # astrologer 1364\r\n            #  wdt:P101 wd:Q34362 # astrology 241\r\n            #  wdt:P106 wd:Q170790  # mathematician 39562\r\n            #  wdt:P106 wd:Q901 # scientist 36117\r\n\r\n    }  \r\n    #LIMIT 10\r\n",
     "metadata": {}
   },
   {
     "kind": 2,
     "language": "sparql",
-    "value": "### Modern astronomers : born from 1751 onward\nSELECT (count(*) as ?number)\nWHERE {\n    {?item wdt:P106 wd:Q11063}  # astronomer\n    UNION\n    {?item wdt:P101 wd:Q333}     # astronomy\n    \n    ?item wdt:P31 wd:Q5; # Any instance of a human.\n            wdt:P569 ?birthDate.\n    \n\n    BIND(REPLACE(str(?birthDate), \"(.*)([0-9]{4})(.*)\", \"$2\") AS ?year)\n    FILTER(xsd:integer(?year) > 1750 )\n}",
+    "value": "### Modern astronomers : born from 1751 onward\r\nSELECT (count(*) as ?number)\r\nWHERE {\r\n    {?item wdt:P106 wd:Q11063}  # astronomer\r\n    UNION\r\n    {?item wdt:P101 wd:Q333}     # astronomy\r\n    \r\n    ?item wdt:P31 wd:Q5; # Any instance of a human.\r\n            wdt:P569 ?birthDate.\r\n    \r\n\r\n    BIND(REPLACE(str(?birthDate), \"(.*)([0-9]{4})(.*)\", \"$2\") AS ?year)\r\n    FILTER(xsd:integer(?year) > 1750 )\r\n}",
     "metadata": {}
   },
   {
     "kind": 2,
     "language": "sparql",
-    "value": "### Modern astronomers and physicists\nSELECT (count(*) as ?number)\nWHERE {\n    {?item wdt:P106 wd:Q11063}  # astronomer\n    UNION\n    {?item wdt:P101 wd:Q333}     # astronomy\n    UNION\n    {?item wdt:P106 wd:Q169470}  # physicist\n    UNION\n    {?item wdt:P101 wd:Q413}     # physics\n    \n    ?item wdt:P31 wd:Q5; # Any instance of a human.\n            wdt:P569 ?birthDate.\n    \n\n    BIND(REPLACE(str(?birthDate), \"(.*)([0-9]{4})(.*)\", \"$2\") AS ?year)\n    FILTER(xsd:integer(?year) > 1750  && xsd:integer(?year) < 1951 )\n}",
+    "value": "### Modern astronomers and physicists\r\nSELECT (count(*) as ?number)\r\nWHERE {\r\n    {?item wdt:P106 wd:Q11063}  # astronomer\r\n    UNION\r\n    {?item wdt:P101 wd:Q333}     # astronomy\r\n    UNION\r\n    {?item wdt:P106 wd:Q169470}  # physicist\r\n    UNION\r\n    {?item wdt:P101 wd:Q413}     # physics\r\n    \r\n    ?item wdt:P31 wd:Q5; # Any instance of a human.\r\n            wdt:P569 ?birthDate.\r\n    \r\n\r\n    BIND(REPLACE(str(?birthDate), \"(.*)([0-9]{4})(.*)\", \"$2\") AS ?year)\r\n    FILTER(xsd:integer(?year) > 1750  && xsd:integer(?year) < 1951 )\r\n}",
     "metadata": {}
   },
   {
@@ -62,7 +62,7 @@
   {
     "kind": 2,
     "language": "sparql",
-    "value": "PREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX bd: <http://www.bigdata.com/rdf#>\n\nSELECT ?p ?propLabel ?eff\nWHERE {\n{\nSELECT ?p  (count(*) as ?eff)\nWHERE {\n    {?item wdt:P106 wd:Q11063}  # astronomer\n    UNION\n    {?item wdt:P101 wd:Q333}     # astronomy\n    UNION\n    {?item wdt:P106 wd:Q169470}  # physicist\n    UNION\n    {?item wdt:P101 wd:Q413}     # physics   \n    ?item wdt:P31 wd:Q5; # Any instance of a human.\n            wdt:P569 ?birthDate.\n    ?item  ?p ?o.\n\n    BIND(REPLACE(str(?birthDate), \"(.*)([0-9]{4})(.*)\", \"$2\") AS ?year)\n    ### Experiment with different time filters if too many values\n    FILTER(xsd:integer(?year) > 1750  && xsd:integer(?year) < 1951)\n    # FILTER(xsd:integer(?year) > 1850  && xsd:integer(?year) < 1951)\n\n}\nGROUP BY ?p \n\n    }\n\n# get the original property (in the the statement construct)     \n?prop wikibase:directClaim ?p .\n\nSERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". } \n\n\n}  \nORDER BY DESC(?eff)",
+    "value": "PREFIX wdt: <http://www.wikidata.org/prop/direct/>\r\nPREFIX wd: <http://www.wikidata.org/entity/>\r\nPREFIX wikibase: <http://wikiba.se/ontology#>\r\nPREFIX bd: <http://www.bigdata.com/rdf#>\r\n\r\nSELECT ?p ?propLabel ?eff\r\nWHERE {\r\n{\r\nSELECT ?p  (count(*) as ?eff)\r\nWHERE {\r\n    {?item wdt:P106 wd:Q11063}  # astronomer\r\n    UNION\r\n    {?item wdt:P101 wd:Q333}     # astronomy\r\n    UNION\r\n    {?item wdt:P106 wd:Q169470}  # physicist\r\n    UNION\r\n    {?item wdt:P101 wd:Q413}     # physics   \r\n    ?item wdt:P31 wd:Q5; # Any instance of a human.\r\n            wdt:P569 ?birthDate.\r\n    ?item  ?p ?o.\r\n\r\n    BIND(REPLACE(str(?birthDate), \"(.*)([0-9]{4})(.*)\", \"$2\") AS ?year)\r\n    ### Experiment with different time filters if too many values\r\n    FILTER(xsd:integer(?year) > 1750  && xsd:integer(?year) < 1951)\r\n    # FILTER(xsd:integer(?year) > 1850  && xsd:integer(?year) < 1951)\r\n\r\n}\r\nGROUP BY ?p \r\n\r\n    }\r\n\r\n# get the original property (in the the statement construct)     \r\n?prop wikibase:directClaim ?p .\r\n\r\nSERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". } \r\n\r\n\r\n}  \r\nORDER BY DESC(?eff)",
     "metadata": {}
   }
 ]
