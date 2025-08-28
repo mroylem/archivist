@@ -1,134 +1,165 @@
 ,periods,relaType,orgMainType,period_members_number
-0,1851-1880,education,company or gov. agency,1
-1,1851-1880,education,educational institution,63
-2,1851-1880,education,learned society,5
-3,1851-1880,education,not classified organisation,5
-4,1851-1880,education,private university,12
-5,1851-1880,education,public university,161
-6,1851-1880,education,research facility,6
-7,1851-1880,education,university,131
-26,1881-1910,education,company or gov. agency,1
-27,1881-1910,education,educational institution,95
-28,1881-1910,education,not classified organisation,21
-29,1881-1910,education,private university,14
-30,1881-1910,education,public university,238
-31,1881-1910,education,research facility,5
-32,1881-1910,education,research organisation,1
-33,1881-1910,education,university,303
-53,1911-1940,education,educational institution,91
-54,1911-1940,education,learned society,1
-55,1911-1940,education,not classified organisation,15
-56,1911-1940,education,private university,18
-57,1911-1940,education,public university,265
-58,1911-1940,education,research facility,10
-59,1911-1940,education,research organisation,1
-60,1911-1940,education,scientific organisation,1
-61,1911-1940,education,university,299
-82,1941-1970,education,educational institution,83
-83,1941-1970,education,institute of technology,4
-84,1941-1970,education,learned society,1
-85,1941-1970,education,not classified organisation,13
-86,1941-1970,education,private university,20
-87,1941-1970,education,public university,287
-88,1941-1970,education,research facility,5
-89,1941-1970,education,research organisation,1
-90,1941-1970,education,university,324
-111,1971-2000,education,educational institution,31
-112,1971-2000,education,not classified organisation,5
-113,1971-2000,education,private university,5
-114,1971-2000,education,public university,82
-115,1971-2000,education,research facility,1
-116,1971-2000,education,research organisation,1
-117,1971-2000,education,university,111
-8,1851-1880,employment,academy of sciences,2
-9,1851-1880,employment,company or gov. agency,10
-10,1851-1880,employment,educational institution,27
-11,1851-1880,employment,learned society,1
-12,1851-1880,employment,not classified organisation,82
-13,1851-1880,employment,private university,1
-14,1851-1880,employment,public university,63
-15,1851-1880,employment,research organisation,2
-16,1851-1880,employment,scientific organisation,9
-17,1851-1880,employment,university,53
-34,1881-1910,employment,academy of sciences,3
-35,1881-1910,employment,company or gov. agency,35
-36,1881-1910,employment,educational institution,23
-37,1881-1910,employment,institute of technology,3
-38,1881-1910,employment,learned society,2
-39,1881-1910,employment,not classified organisation,158
-40,1881-1910,employment,private university,10
-41,1881-1910,employment,public university,116
-42,1881-1910,employment,research organisation,11
-43,1881-1910,employment,scientific organisation,27
-44,1881-1910,employment,university,72
-62,1911-1940,employment,academy of sciences,2
-63,1911-1940,employment,company or gov. agency,22
-64,1911-1940,employment,educational institution,22
-65,1911-1940,employment,institute of technology,2
-66,1911-1940,employment,learned society,4
-67,1911-1940,employment,not classified organisation,187
-68,1911-1940,employment,private university,8
-69,1911-1940,employment,public university,120
-70,1911-1940,employment,research organisation,13
-71,1911-1940,employment,scientific organisation,20
-72,1911-1940,employment,university,97
-91,1941-1970,employment,academy of sciences,3
-92,1941-1970,employment,astronomical observatory,2
-93,1941-1970,employment,company or gov. agency,41
-94,1941-1970,employment,educational institution,32
-95,1941-1970,employment,institute of technology,5
-96,1941-1970,employment,not classified organisation,228
-97,1941-1970,employment,private university,14
-98,1941-1970,employment,public university,130
-99,1941-1970,employment,research facility,2
-100,1941-1970,employment,research organisation,35
-101,1941-1970,employment,scientific organisation,29
-102,1941-1970,employment,university,152
-118,1971-2000,employment,academy of sciences,1
-119,1971-2000,employment,company or gov. agency,17
-120,1971-2000,employment,educational institution,7
-121,1971-2000,employment,institute of technology,1
-122,1971-2000,employment,not classified organisation,71
-123,1971-2000,employment,private university,5
-124,1971-2000,employment,public university,20
-125,1971-2000,employment,research organisation,13
-126,1971-2000,employment,scientific organisation,25
-127,1971-2000,employment,university,37
-18,1851-1880,membership,academy of sciences,101
-19,1851-1880,membership,company or gov. agency,6
-20,1851-1880,membership,educational institution,19
-21,1851-1880,membership,learned society,183
-22,1851-1880,membership,not classified organisation,142
-23,1851-1880,membership,research organisation,3
-24,1851-1880,membership,scientific organisation,20
-25,1851-1880,membership,university,1
-45,1881-1910,membership,academy of sciences,57
-46,1881-1910,membership,company or gov. agency,8
-47,1881-1910,membership,educational institution,18
-48,1881-1910,membership,learned society,172
-49,1881-1910,membership,not classified organisation,251
-50,1881-1910,membership,research organisation,4
-51,1881-1910,membership,scientific organisation,17
-52,1881-1910,membership,university,1
-73,1911-1940,membership,academy of sciences,48
-74,1911-1940,membership,company or gov. agency,5
-75,1911-1940,membership,educational institution,25
-76,1911-1940,membership,learned society,137
-77,1911-1940,membership,not classified organisation,161
-78,1911-1940,membership,public university,1
-79,1911-1940,membership,research organisation,6
-80,1911-1940,membership,scientific organisation,14
-81,1911-1940,membership,university,2
-103,1941-1970,membership,academy of sciences,8
-104,1941-1970,membership,company or gov. agency,10
-105,1941-1970,membership,educational institution,4
-106,1941-1970,membership,learned society,92
-107,1941-1970,membership,not classified organisation,114
-108,1941-1970,membership,research facility,1
-109,1941-1970,membership,research organisation,3
-110,1941-1970,membership,scientific organisation,7
-128,1971-2000,membership,company or gov. agency,1
-129,1971-2000,membership,learned society,23
-130,1971-2000,membership,not classified organisation,33
-131,1971-2000,membership,scientific organisation,1
-132,1971-2000,membership,university,2
+0,1851-1880,education,association,4
+1,1851-1880,education,company or gov. agency,21
+2,1851-1880,education,educational institution,62
+3,1851-1880,education,learned society,5
+4,1851-1880,education,national archive,1
+5,1851-1880,education,other archive,1
+6,1851-1880,education,private university,10
+7,1851-1880,education,public university,148
+8,1851-1880,education,research facility,6
+9,1851-1880,education,university,126
+33,1881-1910,education,association,8
+34,1881-1910,education,company or gov. agency,40
+35,1881-1910,education,educational institution,108
+36,1881-1910,education,other archive,1
+37,1881-1910,education,private university,14
+38,1881-1910,education,public university,208
+39,1881-1910,education,research facility,5
+40,1881-1910,education,research organisation,1
+41,1881-1910,education,university,293
+65,1911-1940,education,association,12
+66,1911-1940,education,company or gov. agency,73
+67,1911-1940,education,educational institution,90
+68,1911-1940,education,learned society,1
+69,1911-1940,education,national archive,1
+70,1911-1940,education,other archive,1
+71,1911-1940,education,private university,15
+72,1911-1940,education,public university,217
+73,1911-1940,education,research facility,10
+74,1911-1940,education,research organisation,1
+75,1911-1940,education,scientific organisation,1
+76,1911-1940,education,university,279
+101,1941-1970,education,association,11
+102,1941-1970,education,company or gov. agency,102
+103,1941-1970,education,educational institution,71
+104,1941-1970,education,institute of technology,4
+105,1941-1970,education,learned society,1
+106,1941-1970,education,other archive,3
+107,1941-1970,education,private university,13
+108,1941-1970,education,public university,237
+109,1941-1970,education,research facility,5
+110,1941-1970,education,research organisation,1
+111,1941-1970,education,state archive,1
+112,1941-1970,education,university,289
+137,1971-2000,education,association,3
+138,1971-2000,education,company or gov. agency,36
+139,1971-2000,education,educational institution,27
+140,1971-2000,education,other archive,5
+141,1971-2000,education,private university,4
+142,1971-2000,education,public university,65
+143,1971-2000,education,research facility,1
+144,1971-2000,education,research organisation,1
+145,1971-2000,education,state archive,1
+146,1971-2000,education,university,93
+10,1851-1880,employment,academy of sciences,2
+11,1851-1880,employment,association,37
+12,1851-1880,employment,company or gov. agency,18
+13,1851-1880,employment,educational institution,25
+14,1851-1880,employment,learned society,1
+15,1851-1880,employment,municipal archive,5
+16,1851-1880,employment,national archive,19
+17,1851-1880,employment,other archive,25
+18,1851-1880,employment,private university,1
+19,1851-1880,employment,public university,55
+20,1851-1880,employment,research organisation,2
+21,1851-1880,employment,scientific organisation,7
+22,1851-1880,employment,state archive,7
+23,1851-1880,employment,university,46
+42,1881-1910,employment,academy of sciences,2
+43,1881-1910,employment,association,89
+44,1881-1910,employment,company or gov. agency,49
+45,1881-1910,employment,educational institution,26
+46,1881-1910,employment,institute of technology,3
+47,1881-1910,employment,municipal archive,8
+48,1881-1910,employment,national archive,20
+49,1881-1910,employment,other archive,53
+50,1881-1910,employment,private university,9
+51,1881-1910,employment,public university,93
+52,1881-1910,employment,research organisation,7
+53,1881-1910,employment,scientific organisation,26
+54,1881-1910,employment,state archive,6
+55,1881-1910,employment,university,69
+77,1911-1940,employment,academy of sciences,2
+78,1911-1940,employment,association,56
+79,1911-1940,employment,company or gov. agency,51
+80,1911-1940,employment,educational institution,25
+81,1911-1940,employment,institute of technology,2
+82,1911-1940,employment,learned society,4
+83,1911-1940,employment,municipal archive,10
+84,1911-1940,employment,national archive,33
+85,1911-1940,employment,other archive,81
+86,1911-1940,employment,private university,8
+87,1911-1940,employment,public university,101
+88,1911-1940,employment,research organisation,9
+89,1911-1940,employment,scientific organisation,17
+90,1911-1940,employment,state archive,15
+91,1911-1940,employment,university,83
+113,1941-1970,employment,academy of sciences,3
+114,1941-1970,employment,association,70
+115,1941-1970,employment,company or gov. agency,70
+116,1941-1970,employment,educational institution,27
+117,1941-1970,employment,institute of technology,5
+118,1941-1970,employment,municipal archive,28
+119,1941-1970,employment,national archive,49
+120,1941-1970,employment,other archive,103
+121,1941-1970,employment,private university,12
+122,1941-1970,employment,public university,111
+123,1941-1970,employment,research facility,2
+124,1941-1970,employment,research organisation,24
+125,1941-1970,employment,scientific organisation,20
+126,1941-1970,employment,state archive,15
+127,1941-1970,employment,university,134
+147,1971-2000,employment,association,35
+148,1971-2000,employment,company or gov. agency,21
+149,1971-2000,employment,educational institution,6
+150,1971-2000,employment,institute of technology,1
+151,1971-2000,employment,municipal archive,5
+152,1971-2000,employment,national archive,7
+153,1971-2000,employment,other archive,28
+154,1971-2000,employment,private university,5
+155,1971-2000,employment,public university,16
+156,1971-2000,employment,research organisation,10
+157,1971-2000,employment,scientific organisation,22
+158,1971-2000,employment,state archive,8
+159,1971-2000,employment,university,33
+24,1851-1880,membership,academy of sciences,64
+25,1851-1880,membership,association,65
+26,1851-1880,membership,company or gov. agency,127
+27,1851-1880,membership,educational institution,31
+28,1851-1880,membership,learned society,161
+29,1851-1880,membership,other archive,13
+30,1851-1880,membership,research organisation,3
+31,1851-1880,membership,scientific organisation,10
+32,1851-1880,membership,university,1
+56,1881-1910,membership,academy of sciences,39
+57,1881-1910,membership,association,75
+58,1881-1910,membership,company or gov. agency,203
+59,1881-1910,membership,educational institution,33
+60,1881-1910,membership,learned society,149
+61,1881-1910,membership,national archive,1
+62,1881-1910,membership,other archive,13
+63,1881-1910,membership,research organisation,3
+64,1881-1910,membership,scientific organisation,12
+92,1911-1940,membership,academy of sciences,35
+93,1911-1940,membership,association,65
+94,1911-1940,membership,company or gov. agency,129
+95,1911-1940,membership,educational institution,23
+96,1911-1940,membership,learned society,119
+97,1911-1940,membership,other archive,14
+98,1911-1940,membership,public university,1
+99,1911-1940,membership,research organisation,5
+100,1911-1940,membership,scientific organisation,8
+128,1941-1970,membership,academy of sciences,5
+129,1941-1970,membership,association,83
+130,1941-1970,membership,company or gov. agency,53
+131,1941-1970,membership,educational institution,3
+132,1941-1970,membership,learned society,75
+133,1941-1970,membership,other archive,12
+134,1941-1970,membership,research facility,1
+135,1941-1970,membership,research organisation,3
+136,1941-1970,membership,scientific organisation,4
+160,1971-2000,membership,association,21
+161,1971-2000,membership,company or gov. agency,20
+162,1971-2000,membership,learned society,17
+163,1971-2000,membership,university,2
