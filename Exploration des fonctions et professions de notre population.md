@@ -1,4 +1,4 @@
-# Exploration des fonctions et professions de la population d'archvisite
+# Exploration des fonctions et professions de la population d'archiviste
 
 ### Rappel du questionnement traité dans cette partie
 
