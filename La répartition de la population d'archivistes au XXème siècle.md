@@ -33,7 +33,7 @@ _____________
 
 ![Continents et périodes_analyse bivariée](https://github.com/mroylem/archivist/blob/main/sparqlnotebook/images/Continent%20et%20p%C3%A9riode_bivari%C3%A9e.jpg "Continents et périodes_analyse bivariée")
 
-Ici on observe l'évolution du phénomène grâce à une analyse bivariée.
+Ici on observe l'évolution du phénomène grâce à une analyse bivariée, toujours par 25 ans.
 
 On retrouve l'Afrique entre 1951 et 1975 qui se débarque par une hausse du nombre d'archivistes par rapport à 1926 et 1950.
 
