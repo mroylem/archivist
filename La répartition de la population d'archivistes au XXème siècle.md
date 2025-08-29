@@ -21,4 +21,25 @@ Une deuxième représentation de ces données est encore plus parlante.
 
 Ici, on constate parfaitement la majorité écrasante d'archivistes européens, mais également l'augmentation du nombre d'individus de notre population sur les autres continents au cours du siècle. 
 
-Ces deux graphiques permettent aussi de montrer un certain ''pic'' relatif dans le nombre d'archivistes né entre 1926 et 1950. Cependant, cette augmentation semble diminuer les décennies suivantes. 
+Nous avons fait le choix d'affiner le nombre de ''continents'' affichés.
+
+![Distribution des naissances par génération et continent affinées](https://github.com/mroylem/archivist/blob/main/sparqlnotebook/images/Distribution%20des%20naissances%20par%20g%C3%A9n%C3%A9ration%20et%20par%20continent_bivari%C3%A9e.jpg "Distribution des naissances par génération et continent affinées")
+
+Cette visualisation montre un nombre apparent pour le continent Africain entre 1901 et 1925, qui disparait et réapparaît en 1951-1975. La décolonisation y joue sûrement un rôle.
+
+Ces graphiques permettent aussi de montrer un certain ''pic'' relatif dans le nombre d'archivistes né entre 1926 et 1950. Cependant, cette augmentation semble diminuer les décennies suivantes. 
+
+_____________
+
+![Continents et périodes_analyse bivariée](https://github.com/mroylem/archivist/blob/main/sparqlnotebook/images/Continent%20et%20p%C3%A9riode_bivari%C3%A9e.jpg "Continents et périodes_analyse bivariée")
+
+Ici on observe l'évolution du phénomène grâce à une analyse bivariée.
+
+On retrouve l'Afrique entre 1951 et 1975 qui se débarque par une hausse du nombre d'archivistes par rapport à 1926 et 1950.
+
+On remarque aussi que l'Asie connaît une augmentation de sa population en même temps que l'Amérique du Nord entre 1926 et 1950.
+
+### Conclusion
+
+Pour répondre à nos questionnements plus haut, oui, il y a une forte concentration d'archiviste en Europe. Mais les autres continents voient ce corps de métier apparaître et se développer durant tout le XXe.
+
