@@ -1,4 +1,4 @@
-# Exploration des fonctions et professions de la population d'archiviste
+# Exploration des professions au sein de la population d'archiviste
 
 ### Rappel du questionnement traité dans cette partie
 
