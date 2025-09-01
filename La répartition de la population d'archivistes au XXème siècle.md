@@ -35,7 +35,7 @@ _____________
 
 Ici on observe l'évolution du phénomène grâce à une analyse bivariée, toujours par 25 ans.
 
-On retrouve l'Afrique entre 1951 et 1975 qui se débarque par une hausse du nombre d'archivistes par rapport à 1926 et 1950.
+On retrouve l'Afrique entre 1951 et 1975 qui se démarque par une hausse du nombre d'archivistes par rapport à 1926 et 1950.
 
 On remarque aussi que l'Asie connaît une augmentation de sa population en même temps que l'Amérique du Nord entre 1926 et 1950.
 
